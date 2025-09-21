@@ -19,6 +19,6 @@ This project consists of a Spring Boot backend and a React frontend, with Postgr
   - [`README.md`](/README.md): Project overview and instructions.
 - **docs/**: Documentation.
   - [`SRS.md`](docs/SRS.md): Software Requirements Specification.
-  - [`mockups/`](docs/mockups/): UI mockups (e.g., freelancer list, details).
+  - [`Mockups/`](docs/Mockups/): UI mockups (e.g., freelancer list, details).
   - [`diagrams/`](docs/diagrams/): Diagrams (ER for database, UML for classes).
 - **code/**: Source code.
