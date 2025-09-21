@@ -16,9 +16,9 @@ This project consists of a Spring Boot backend and a React frontend, with Postgr
 ## Folder Structure
 
 - **/**: Project root.
-  - `README.md`: Project overview and instructions.
+  - [`README.md`](/README.md): Project overview and instructions.
 - **docs/**: Documentation.
-  - `SRS.md`: Software Requirements Specification.
-  - `mocks/`: UI mockups (e.g., freelancer list, details).
-  - `diagrams/`: Diagrams (ER for database, UML for classes).
+  - [`SRS.md`](docs/SRS.md): Software Requirements Specification.
+  - [`mockups/`](docs/mockups/): UI mockups (e.g., freelancer list, details).
+  - [`diagrams/`](docs/diagrams/): Diagrams (ER for database, UML for classes).
 - **code/**: Source code.
