@@ -1,6 +1,6 @@
-# Диаграмма классов  
+# [Диаграмма классов](https://github.com/Argentime/SDLC/tree/main/docs/diagrams/images/ClassDiagram.svg)  
 
-![Диаграмма классов](https://github.com/Argentime/SDLC/tree/main/docs/diagrams/images/ClassDiagram.svg)
+![Диаграмма классов](images/ClassDiagram.svg)
 
 # Глоссарий
 

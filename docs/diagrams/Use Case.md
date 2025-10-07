@@ -1,6 +1,6 @@
-# Диаграмма вариантов использования
+# [Диаграмма вариантов использования](https://github.com/Argentime/SDLC/tree/main/docs/diagrams/images/UseCaseDiagram.svg)
 
-![Диаграмма вариантов использования](https://github.com/Argentime/SDLC/tree/main/docs/diagrams/images/UseCaseDiagram.svg)
+![Диаграмма вариантов использования](images/UseCaseDiagram.svg)
 
 # Глоссарий
 
