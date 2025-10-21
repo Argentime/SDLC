@@ -1,0 +1,167 @@
+2025-04-08 11:25:39 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 11:25:39 INFO  [restartedMain] c.e.javalabs.JavaLabsApplication - Starting JavaLabsApplication using Java 21.0.6 with PID 23504 (C:\Users\User\IdeaProjects\JavaProject\target\classes started by Alex in C:\Users\User\IdeaProjects\JavaProject)
+2025-04-08 11:25:39 INFO  [restartedMain] c.e.javalabs.JavaLabsApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 11:25:40 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08 11:25:40 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08 11:25:43 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 11:25:43 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 3 JPA repository interfaces.
+2025-04-08 11:25:45 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-08 11:25:45 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-08 11:25:45 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 11:25:45 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-08 11:25:46 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 11:25:46 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6011 ms
+2025-04-08 11:25:46 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 11:25:47 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-08 11:25:47 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 11:25:47 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 11:25:48 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 11:25:48 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d2b8cc2
+2025-04-08 11:25:48 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 11:25:48 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 11:25:48 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 11:25:51 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 11:25:51 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:25:52 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-08 11:25:53 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 11:25:55 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-08 11:25:55 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-08 11:25:55 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-08 11:25:55 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-08 11:25:55 INFO  [restartedMain] c.e.javalabs.JavaLabsApplication - Started JavaLabsApplication in 17.459 seconds (process running for 19.161)
+2025-04-08 11:27:02 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 11:27:02 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 11:27:02 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-04-08 11:27:02 INFO  [http-nio-8080-exec-2] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-04-08.log with level: info
+2025-04-08 11:27:02 INFO  [http-nio-8080-exec-2] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [2025-04-08, info], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-04-087845494156400650956.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-04-08-info.log""]>
+2025-04-08 11:29:18 INFO  [http-nio-8080-exec-4] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-04-08.log with level: all
+2025-04-08 11:29:18 INFO  [http-nio-8080-exec-4] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [2025-04-08, null], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-04-085302351967754738224.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-04-08.log""]>
+2025-04-08 11:29:48 INFO  [http-nio-8080-exec-7] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-04-08.log with level: warn
+2025-04-08 11:29:48 INFO  [http-nio-8080-exec-7] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [2025-04-08, warn], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-04-087446689130351405691.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-04-08-warn.log""]>
+2025-04-08 11:30:53 ERROR [http-nio-8080-exec-9] c.e.j.e.GlobalExceptionHandler - Validation error: {name=Name cannot be blank, category=Category cannot be blank}
+2025-04-08 11:30:53 WARN  [http-nio-8080-exec-9] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public com.example.javalabs.models.Freelancer com.example.javalabs.controllers.FreelancersController.updateFreelancer(java.lang.Long,com.example.javalabs.models.Freelancer) with 3 errors: [Field error in object 'freelancer' on field 'category': rejected value []; codes [NotBlank.freelancer.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.category,category]; arguments []; default message [category]]; default message [Category cannot be blank]] [Field error in object 'freelancer' on field 'name': rejected value []; codes [Size.freelancer.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.name,name]; arguments []; default message [name],50,2]; default message [Name must be between 2 and 50 characters]] [Field error in object 'freelancer' on field 'name': rejected value []; codes [NotBlank.freelancer.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.name,name]; arguments []; default message [name]]; default message [Name cannot be blank]] ]
+2025-04-08 11:31:15 INFO  [http-nio-8080-exec-6] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-04-08.log with level: warn
+2025-04-08 11:31:15 INFO  [http-nio-8080-exec-6] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [2025-04-08, warn], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-04-0813687478674702038683.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-04-08-warn.log""]>
+2025-04-08 11:31:23 INFO  [http-nio-8080-exec-1] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-04-08.log with level: all
+2025-04-08 11:31:23 INFO  [http-nio-8080-exec-1] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [2025-04-08, null], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-04-0810371007230894691829.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-04-08.log""]>
+2025-04-08 12:01:40 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m21s778ms335µs100ns).
+2025-04-08 12:05:47 INFO  [http-nio-8080-exec-6] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1765 ms
+2025-04-08 12:06:08 ERROR [http-nio-8080-exec-2] c.e.j.e.GlobalExceptionHandler - Validation error: {name=Name must be between 2 and 50 characters, category=Category cannot be blank}
+2025-04-08 12:06:08 WARN  [http-nio-8080-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public com.example.javalabs.models.Freelancer com.example.javalabs.controllers.FreelancersController.updateFreelancer(java.lang.Long,com.example.javalabs.models.Freelancer) with 3 errors: [Field error in object 'freelancer' on field 'category': rejected value []; codes [NotBlank.freelancer.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.category,category]; arguments []; default message [category]]; default message [Category cannot be blank]] [Field error in object 'freelancer' on field 'name': rejected value []; codes [NotBlank.freelancer.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.name,name]; arguments []; default message [name]]; default message [Name cannot be blank]] [Field error in object 'freelancer' on field 'name': rejected value []; codes [Size.freelancer.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.name,name]; arguments []; default message [name],50,2]; default message [Name must be between 2 and 50 characters]] ]
+2025-04-08 12:06:26 DEBUG [http-nio-8080-exec-1] org.hibernate.SQL - select f1_0.id,f1_0.category,f1_0.hourly_rate,f1_0.name,f1_0.rating from freelancers f1_0 where f1_0.id=?
+2025-04-08 12:06:26 INFO  [http-nio-8080-exec-1] c.e.javalabs.aspects.LoggingAspect - Method getFreelancerById executed successfully with args: [1], result: com.example.javalabs.models.Freelancer@60e81374
+2025-04-08 12:06:26 DEBUG [http-nio-8080-exec-1] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:06:26 DEBUG [http-nio-8080-exec-1] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:07:46 DEBUG [http-nio-8080-exec-5] org.hibernate.SQL - SELECT DISTINCT f.* FROM freelancers f LEFT JOIN freelancer_skills fs on f.id = fs.freelancer_id LEFT JOIN skills s on fs.skill_id = s.id WHERE (? IS NULL OR f.category = ?) AND (? IS NULL OR s.name = ?)
+2025-04-08 12:07:46 INFO  [http-nio-8080-exec-5] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from database in 159770000 ns for category: null, skillName: null
+2025-04-08 12:07:46 INFO  [http-nio-8080-exec-5] c.e.javalabs.cache.FreelancerCache - Added to cache: key=null_null, size=1
+2025-04-08 12:07:46 INFO  [http-nio-8080-exec-5] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [null, null], result: [com.example.javalabs.models.Freelancer@b53ac54, com.example.javalabs.models.Freelancer@5f13b940, com.example.javalabs.models.Freelancer@2cfdf337]
+2025-04-08 12:07:46 DEBUG [http-nio-8080-exec-5] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:07:46 DEBUG [http-nio-8080-exec-5] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:07:46 DEBUG [http-nio-8080-exec-5] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:07:46 DEBUG [http-nio-8080-exec-5] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:07:46 DEBUG [http-nio-8080-exec-5] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:07:46 DEBUG [http-nio-8080-exec-5] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:08:42 DEBUG [http-nio-8080-exec-7] org.hibernate.SQL - SELECT DISTINCT f.* FROM freelancers f LEFT JOIN freelancer_skills fs on f.id = fs.freelancer_id LEFT JOIN skills s on fs.skill_id = s.id WHERE (? IS NULL OR f.category = ?) AND (? IS NULL OR s.name = ?)
+2025-04-08 12:08:42 INFO  [http-nio-8080-exec-7] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from database in 114068100 ns for category: design, skillName: null
+2025-04-08 12:08:42 INFO  [http-nio-8080-exec-7] c.e.javalabs.cache.FreelancerCache - Added to cache: key=design_null, size=2
+2025-04-08 12:08:42 INFO  [http-nio-8080-exec-7] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [design, null], result: [com.example.javalabs.models.Freelancer@5d874fc4]
+2025-04-08 12:08:42 DEBUG [http-nio-8080-exec-7] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:08:42 DEBUG [http-nio-8080-exec-7] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:08:57 INFO  [http-nio-8080-exec-8] c.e.javalabs.cache.FreelancerCache - Cache hit for key: null_null
+2025-04-08 12:08:57 INFO  [http-nio-8080-exec-8] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from cache in 1703300 ns for category: null, skillName: null
+2025-04-08 12:08:57 INFO  [http-nio-8080-exec-8] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [null, null], result: [com.example.javalabs.models.Freelancer@b53ac54, com.example.javalabs.models.Freelancer@5f13b940, com.example.javalabs.models.Freelancer@2cfdf337]
+2025-04-08 12:09:44 DEBUG [http-nio-8080-exec-6] org.hibernate.SQL - SELECT DISTINCT f.* FROM freelancers f LEFT JOIN freelancer_skills fs on f.id = fs.freelancer_id LEFT JOIN skills s on fs.skill_id = s.id WHERE (? IS NULL OR f.category = ?) AND (? IS NULL OR s.name = ?)
+2025-04-08 12:09:44 INFO  [http-nio-8080-exec-6] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from database in 8562100 ns for category: development, skillName: null
+2025-04-08 12:09:44 INFO  [http-nio-8080-exec-6] c.e.javalabs.cache.FreelancerCache - Added to cache: key=development_null, size=3
+2025-04-08 12:09:44 INFO  [http-nio-8080-exec-6] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [development, null], result: [com.example.javalabs.models.Freelancer@334f0d3a, com.example.javalabs.models.Freelancer@7b3a47bd]
+2025-04-08 12:09:44 DEBUG [http-nio-8080-exec-6] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:09:44 DEBUG [http-nio-8080-exec-6] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:09:44 DEBUG [http-nio-8080-exec-6] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:09:44 DEBUG [http-nio-8080-exec-6] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:10:07 DEBUG [http-nio-8080-exec-2] org.hibernate.SQL - SELECT DISTINCT f.* FROM freelancers f LEFT JOIN freelancer_skills fs on f.id = fs.freelancer_id LEFT JOIN skills s on fs.skill_id = s.id WHERE (? IS NULL OR f.category = ?) AND (? IS NULL OR s.name = ?)
+2025-04-08 12:10:07 INFO  [http-nio-8080-exec-2] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from database in 10042300 ns for category: development, skillName: Web Design
+2025-04-08 12:10:07 INFO  [http-nio-8080-exec-2] c.e.javalabs.cache.FreelancerCache - Added to cache: key=development_Web Design, size=4
+2025-04-08 12:10:07 INFO  [http-nio-8080-exec-2] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [development, Web Design], result: [com.example.javalabs.models.Freelancer@3fb00ed0]
+2025-04-08 12:10:07 DEBUG [http-nio-8080-exec-2] org.hibernate.SQL - select o1_0.freelancer_id,o1_0.id,o1_0.description,o1_0.price from orders o1_0 where o1_0.freelancer_id=?
+2025-04-08 12:10:07 DEBUG [http-nio-8080-exec-2] org.hibernate.SQL - select s1_0.freelancer_id,s1_1.id,s1_1.name from freelancer_skills s1_0 join skills s1_1 on s1_1.id=s1_0.skill_id where s1_0.freelancer_id=?
+2025-04-08 12:10:25 INFO  [http-nio-8080-exec-3] c.e.javalabs.cache.FreelancerCache - Cache hit for key: development_Web Design
+2025-04-08 12:10:25 INFO  [http-nio-8080-exec-3] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from cache in 317400 ns for category: development, skillName: Web Design
+2025-04-08 12:10:25 INFO  [http-nio-8080-exec-3] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [development, Web Design], result: [com.example.javalabs.models.Freelancer@3fb00ed0]
+2025-04-08 12:10:26 INFO  [http-nio-8080-exec-4] c.e.javalabs.cache.FreelancerCache - Cache hit for key: development_Web Design
+2025-04-08 12:10:26 INFO  [http-nio-8080-exec-4] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from cache in 271600 ns for category: development, skillName: Web Design
+2025-04-08 12:10:26 INFO  [http-nio-8080-exec-4] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [development, Web Design], result: [com.example.javalabs.models.Freelancer@3fb00ed0]
+2025-04-08 12:10:39 INFO  [http-nio-8080-exec-5] c.e.javalabs.cache.FreelancerCache - Cache hit for key: null_null
+2025-04-08 12:10:39 INFO  [http-nio-8080-exec-5] c.e.j.s.impl.FreelancerServiceImpl - Data retrieved from cache in 325900 ns for category: null, skillName: null
+2025-04-08 12:10:39 INFO  [http-nio-8080-exec-5] c.e.javalabs.aspects.LoggingAspect - Method getFreelancers executed successfully with args: [null, null], result: [com.example.javalabs.models.Freelancer@b53ac54, com.example.javalabs.models.Freelancer@5f13b940, com.example.javalabs.models.Freelancer@2cfdf337]
+2025-04-08 12:15:49 ERROR [http-nio-8080-exec-8] c.e.j.e.GlobalExceptionHandler - Unexpected error: No static resource favicon.ico.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-08 12:15:49 WARN  [http-nio-8080-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-08 12:15:56 INFO  [http-nio-8080-exec-9] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-03-25.log with level: all
+2025-04-08 12:15:56 INFO  [http-nio-8080-exec-9] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [2025-03-25, null], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-03-2510596103942869303153.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-03-25.log""]>
+2025-04-08 12:16:13 INFO  [http-nio-8080-exec-6] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-03-25.log with level: all
+2025-04-08 12:16:13 INFO  [http-nio-8080-exec-6] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [2025-03-25, null], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-03-2512842030454218914430.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-03-25.log""]>
+2025-04-08 12:18:42 ERROR [http-nio-8080-exec-1] c.e.j.e.GlobalExceptionHandler - Validation error: {name=Name must be between 2 and 50 characters, category=Category cannot be blank}
+2025-04-08 12:18:42 WARN  [http-nio-8080-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public com.example.javalabs.models.Freelancer com.example.javalabs.controllers.FreelancersController.updateFreelancer(java.lang.Long,com.example.javalabs.models.Freelancer) with 3 errors: [Field error in object 'freelancer' on field 'category': rejected value []; codes [NotBlank.freelancer.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.category,category]; arguments []; default message [category]]; default message [Category cannot be blank]] [Field error in object 'freelancer' on field 'name': rejected value []; codes [NotBlank.freelancer.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.name,name]; arguments []; default message [name]]; default message [Name cannot be blank]] [Field error in object 'freelancer' on field 'name': rejected value []; codes [Size.freelancer.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [freelancer.name,name]; arguments []; default message [name],50,2]; default message [Name must be between 2 and 50 characters]] ]
+2025-04-08 12:19:00 INFO  [http-nio-8080-exec-3] c.e.javalabs.services.LogService - Retrieved logs from file: logs/app-2025-04-08.log with level: all
+2025-04-08 12:19:00 INFO  [http-nio-8080-exec-3] c.e.javalabs.aspects.LoggingAspect - Method getLogs executed successfully with args: [null, null], result: <200 OK OK,path [C:\Users\User\AppData\Local\Temp\logs-2025-04-0811746866396415752215.log],[Content-Type:"application/octet-stream", Content-Disposition:"attachment; filename="logs-2025-04-08.log""]>
+2025-04-08 13:02:00 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m48s952ms834µs900ns).
+2025-04-08 21:30:25 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h21m36s457ms934µs900ns).
+2025-04-08 21:34:15 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 21:34:15 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 21:34:15 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 21:34:16 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 21:34:16 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
